@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="The blog of huangmj">
 <meta property="og:description" content="本文为本人在阅读《鸟哥私房菜》，阅读之余、思考之余,动手实践操作">
 <meta property="article:published_time" content="2017-08-18T02:08:12.000Z">
-<meta property="article:modified_time" content="2020-03-11T15:40:29.586Z">
+<meta property="article:modified_time" content="2020-03-11T15:44:16.251Z">
 <meta property="article:author" content="huangmj">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="shell">
@@ -170,8 +170,9 @@
       
         <blockquote>
 <p>本文为本人在阅读《鸟哥私房菜》，阅读之余、思考之余,动手实践操作</p>
-<a id="more"></a>
 </blockquote>
+<a id="more"></a>
+
 <h2 id="sh01-sh-gt-hello-world"><a href="#sh01-sh-gt-hello-world" class="headerlink" title="sh01.sh &gt; hello world!"></a>sh01.sh &gt; hello world!</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="string">"hello world! \a \n"</span></span><br><span class="line"><span class="built_in">exit</span> 110</span><br></pre></td></tr></table></figure>
 
 <h2 id="sh02-sh-gt-read"><a href="#sh02-sh-gt-read" class="headerlink" title="sh02.sh &gt; read"></a>sh02.sh &gt; read</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># Program:</span></span><br><span class="line"><span class="comment">#	User inputs his first name and last name.Program show the user full name.</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># History:</span></span><br><span class="line"><span class="comment">#	2017/7/11 huangmj First release</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 提示用户输入firstname</span></span><br><span class="line"><span class="built_in">read</span> -p<span class="string">"Please input your firstname: "</span> firstname</span><br><span class="line"></span><br><span class="line"><span class="comment"># 提示用户输入lastname</span></span><br><span class="line"><span class="built_in">read</span> -p<span class="string">"Please input your lastname: "</span> lastname</span><br><span class="line"></span><br><span class="line"><span class="comment"># 结果荧屏输出用户全名</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="string">"\n Your fullname is: <span class="variable">$firstname</span> <span class="variable">$lastname</span>"</span></span><br></pre></td></tr></table></figure>
@@ -543,7 +544,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">MeiJun | a enjoy runing &amp; reading man&lt;br&gt;教育：东华理工大学 | IT专业&lt;br&gt;经历：用友，仁聚，深圳雪球，度小满 &lt;br&gt;谢谢</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">MeiJun | a enjoy runing &amp; reading man&lt;br&gt;教育：东华理工大学 | IT专业&lt;br&gt;经历：用友，仁聚，深圳雪球，度小满 &lt;br&gt; --谢谢</div>
   	  	
     	</section>
     
